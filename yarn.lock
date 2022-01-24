@@ -1117,6 +1117,11 @@
   resolved "https://registry.npmmirror.com/@types/tapable/download/@types/tapable-1.0.8.tgz#b94a4391c85666c7b73299fd3ad79d4faa435310"
   integrity sha1-uUpDkchWZse3Mpn9OtedT6pDUxA=
 
+"@types/trusted-types@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
+  integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
+
 "@types/uglify-js@*":
   version "3.13.1"
   resolved "https://registry.npmmirror.com/@types/uglify-js/download/@types/uglify-js-3.13.1.tgz#5e889e9e81e94245c75b6450600e1c5ea2878aea"
@@ -8805,6 +8810,11 @@ workbox-cacheable-response@^4.3.1:
   dependencies:
     workbox-core "^4.3.1"
 
+workbox-core@6.4.2:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.4.2.tgz#f99fd36a211cc01dce90aa7d5f2c255e8fe9d6bc"
+  integrity sha512-1U6cdEYPcajRXiboSlpJx6U7TvhIKbxRRerfepAJu2hniKwJ3DHILjpU/zx3yvzSBCWcNJDoFalf7Vgd7ey/rw==
+
 workbox-core@^4.3.1:
   version "4.3.1"
   resolved "https://registry.npmmirror.com/workbox-core/download/workbox-core-4.3.1.tgz#005d2c6a06a171437afd6ca2904a5727ecd73be6"
@@ -8889,6 +8899,14 @@ workbox-window@^4.3.1:
   integrity sha1-7mBRvxDwavpUg8m436BTGZTt4PM=
   dependencies:
     workbox-core "^4.3.1"
+
+workbox-window@^6.4.2:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/workbox-window/-/workbox-window-6.4.2.tgz#5319a3e343fa1e4bd15a1f53a07b58999d064c8a"
+  integrity sha512-KVyRKmrJg7iB+uym/B/CnEUEFG9CvnTU1Bq5xpXHbtgD9l+ShDekSl1wYpqw/O0JfeeQVOFb8CiNfvnwWwqnWQ==
+  dependencies:
+    "@types/trusted-types" "^2.0.2"
+    workbox-core "6.4.2"
 
 worker-farm@^1.7.0:
   version "1.7.0"
