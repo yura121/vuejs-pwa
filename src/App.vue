@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <friend-list/>
+    <friend-adder/>
     <div class="update-dialog" v-if="prompt">
       <div class="update-dialog__content">
         A new version is found. Refresh to load it?
@@ -25,12 +26,14 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import FriendList from '@/components/FriendList.vue';
+import FriendAdder from '@/components/FriendAdder.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    FriendAdder,
+    FriendList,
   },
 
   methods: {
